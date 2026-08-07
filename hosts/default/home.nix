@@ -80,6 +80,22 @@
   #
   #  /etc/profiles/per-user/marius/etc/profile.d/hm-session-vars.sh
   #
+
+  # mine: installing omz 
+  programs.zsh = {
+    enable = true;
+    oh-my-zsh = {
+      enable = true;
+      theme = "robbyrussell";
+      plugins = [
+        "git"
+        "sudo"
+        "docker"
+      ];
+    };
+  };
+
+
   home.sessionVariables = {
     # EDITOR = "emacs";
   };
@@ -88,7 +104,7 @@
     "${config.home.homeDirectory}/go/bin"
   ];
 
-  programs.fzf.enableZshIntegration = true;
+  programs.fzf.enable = true;
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 }
