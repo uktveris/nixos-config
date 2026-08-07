@@ -41,7 +41,6 @@
 	pkgs.alacritty
 	pkgs.neovim
     pkgs.tree
-    pkgs.fzf
 
     # golang
     pkgs.go
