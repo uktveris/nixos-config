@@ -47,10 +47,11 @@
     pkgs.zip
     pkgs.unzip
 
-    # golang
+    # nvim lsps, linters, etc.
     pkgs.go
     pkgs.gopls
     pkgs.gotools
+    pkgs.lua-language-server
 
     # nvim tree-sitter
     pkgs.tree-sitter
