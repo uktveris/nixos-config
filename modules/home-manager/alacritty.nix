@@ -17,9 +17,13 @@ in
           dynamic_title = true;
           startup_mode = "Maximized";
         };
-        font.offset = {
-          x = 0;
-          y = 1;
+        font = {
+          normal.family = "JetBrainsMono Nerd Font";
+          size = 11;
+          offset = {
+            x = 0;
+            y = 1;
+          };
         };
         keyboard.bindings = [
           {

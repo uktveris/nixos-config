@@ -45,6 +45,9 @@
     pkgs.tree
     pkgs.ripgrep
     pkgs.gnumake
+
+    # fonts
+    pkgs.nerd-fonts.jetbrains-mono
     
     # zipping
     pkgs.zip
