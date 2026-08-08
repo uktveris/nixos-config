@@ -41,11 +41,19 @@
 	pkgs.alacritty
 	pkgs.neovim
     pkgs.tree
+    pkgs.ripgrep
+    
+    # zipping
+    pkgs.zip
+    pkgs.unzip
 
     # golang
     pkgs.go
     pkgs.gopls
     pkgs.gotools
+
+    # nvim tree-sitter
+    pkgs.tree-sitter
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
