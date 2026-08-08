@@ -42,6 +42,7 @@
 	pkgs.neovim
     pkgs.tree
     pkgs.ripgrep
+    pkgs.gnumake
     
     # zipping
     pkgs.zip
