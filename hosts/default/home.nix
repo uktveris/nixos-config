@@ -1,6 +1,9 @@
 { config, pkgs, ... }:
 
 {
+  imports = [
+    ../../modules/home-manager/alacritty.nix
+  ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "marius";
@@ -38,7 +41,6 @@
 	pkgs.tmux
 	pkgs.claude-code
 	pkgs.spotify
-	pkgs.alacritty
 	pkgs.neovim
     pkgs.tree
     pkgs.ripgrep
@@ -112,6 +114,9 @@
   home.sessionPath = [
     "${config.home.homeDirectory}/go/bin"
   ];
+
+  # enabling alacritty
+  alacritty.enable = true;
 
   programs.fzf.enable = true;
   # Let Home Manager install and manage itself.
