@@ -53,11 +53,13 @@
     pkgs.zip
     pkgs.unzip
 
-    # nvim lsps, linters, etc.
+    # languages, nvim lsps, linters, etc.
     pkgs.go
     pkgs.gopls
     pkgs.gotools
     pkgs.lua-language-server
+
+    pkgs.nodejs
 
     # nvim tree-sitter
     pkgs.tree-sitter
