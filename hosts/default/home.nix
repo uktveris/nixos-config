@@ -63,6 +63,9 @@
 
     # nvim tree-sitter
     pkgs.tree-sitter
+
+    # entertainment
+    pkgs.superTuxKart
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
